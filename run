@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+use Skugubaev\Stratagy\Calculator;
+
+require __DIR__ . '/vendor/autoload.php';
+
+$plus = new Calculator('+');
+echo ($plus->calc(10, 482) . "\n");
+
+$subs = new Calculator('-');
+echo ($subs->calc(510, 482) . "\n");
+
+$mult = new Calculator('*');
+echo ($mult->calc(10, 482) . "\n");
+
+$divs = new Calculator('/');
+echo ($divs->calc(515, 5) . "\n");
+
