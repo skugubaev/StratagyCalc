@@ -1,0 +1,20 @@
+{
+    "name": "skugubaev/stratagy",
+    "description": "simple stratagy calculator",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei Kugubaev",
+            "email": "skugubaev@simtechdev.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skugubaev\\" : "src"
+        }
+    }
+}
